@@ -15,7 +15,7 @@ tools {
                 }
             post {
                 success {
-                    archiveArtifacts artifacts: '/var/lib/jenkins/workspace/JavaAppTest/target/*.war'
+                    archiveArtifacts artifacts: '**/*.war'
             }
             }
             }
