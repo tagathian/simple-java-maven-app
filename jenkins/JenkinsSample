@@ -15,22 +15,10 @@ tools {
                 }
             post {
                 success {
-                    archiveArtifacts artifacts: "**/*.war"
+                    archiveArtifacts artifacts: '**/*.war'
             }
             }
             }
- /*       stage('test')
-        {
-            steps{
-                echo "This is testing phase"
-            }
-        }
-        stage("Deploy")
-        {
-            steps {
-                echo "This is Deploy phase"
-            }
-        }
-*/
+ 
     }
 }
