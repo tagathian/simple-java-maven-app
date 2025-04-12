@@ -15,7 +15,7 @@ tools {
                 }
             post {
                 success {
-                    archiveArtifacts artifacts: '$WORKSPACE/**/*.war' 
+                    archiveArtifacts artifacts: '**/*.war' 
             }
             }
             }
