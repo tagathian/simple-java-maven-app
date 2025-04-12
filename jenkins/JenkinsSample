@@ -15,7 +15,7 @@ tools {
                 }
             post {
                 success {
-                    archiveArtifacts artifacts: '*/BuildAndDeployJob/webapp/target/*.war' 
+                    archiveArtifacts artifacts: '**/*.war' 
             }
             }
             }
